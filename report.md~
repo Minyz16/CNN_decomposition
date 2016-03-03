@@ -14,5 +14,5 @@
 * 配置该论文code所需环境
 
 ## 2016/3/3
-* 了解了protobuf的使用方法，读了caffe代码中的caffe.proto,了解了用caffe写网络结构的基本流程
+* 了解了protobuf的使用方法，读了caffe代码中的caffe.proto,了解了用caffe跑现有结构的方法
 * 跑了官网的例子http://caffe.berkeleyvision.org/gathered/examples/mnist.html
