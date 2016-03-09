@@ -23,3 +23,5 @@
 
 ## 2016/3/9
 * 在实验室服务器上调通了code
+* 粗略测量了一下mnist上加速后与加速前的数据，结果存放在 /cp-decomosition_results_on_CPU.txt
+* 学习了finetuning的例子http://caffe.berkeleyvision.org/gathered/examples/finetune_flickr_style.html
