@@ -16,3 +16,10 @@
 ## 2016/3/3
 * 了解了protobuf的使用方法，读了caffe代码中的caffe.proto,了解了用caffe写网络结构的基本流程
 * 跑了官网的例子http://caffe.berkeleyvision.org/gathered/examples/mnist.html
+
+## 2016/3/8
+* 读完论文code，理解了code执行流程
+* 尝试在服务器上跑通code，正在配置相关环境
+
+## 2016/3/9
+* 在实验室服务器上调通了code
