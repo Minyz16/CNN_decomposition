@@ -29,6 +29,7 @@ I0309 21:40:49.957181  6428 caffe.cpp:366] Average Forward pass: 37.1315 ms.
 I0309 21:40:49.957200  6428 caffe.cpp:368] Average Backward pass: 68.257 ms.
 I0309 21:40:49.957216  6428 caffe.cpp:370] Average Forward-Backward: 105.48 ms.
 I0309 21:40:49.957232  6428 caffe.cpp:372] Total Time: 5274 ms.
+accuracy = 0.9844
 
 unaccelerated:
 I0309 21:41:54.179589  6435 caffe.cpp:355] Average time per layer: 
@@ -54,4 +55,4 @@ I0309 21:41:54.180523  6435 caffe.cpp:366] Average Forward pass: 45.1103 ms.
 I0309 21:41:54.180583  6435 caffe.cpp:368] Average Backward pass: 65.1419 ms.
 I0309 21:41:54.180644  6435 caffe.cpp:370] Average Forward-Backward: 110.32 ms.
 I0309 21:41:54.180721  6435 caffe.cpp:372] Total Time: 5516 ms.
-
+accuracy = 0.987

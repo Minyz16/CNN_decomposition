@@ -25,3 +25,15 @@
 * 在实验室服务器上调通了code
 * 粗略测量了一下mnist上加速后与加速前的数据，结果存放在 /cp-decomosition_results_on_CPU.txt
 * 学习了finetuning的例子http://caffe.berkeleyvision.org/gathered/examples/finetune_flickr_style.html
+
+## 2016/3/10
+* 跑了官网例子：CIFAR-10 tutorial
+* 读完了http://caffe.berkeleyvision.org/tutorial/，熟悉caffe，笔记写在 caffe tutorial笔记.txt
+* 学习如何在caffe中添加自己的层
+
+
+
+
+
+
+
