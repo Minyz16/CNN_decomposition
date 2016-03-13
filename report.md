@@ -31,7 +31,11 @@
 * 读完了http://caffe.berkeleyvision.org/tutorial/，熟悉caffe，笔记写在 caffe tutorial笔记.txt
 * 学习如何在caffe中添加自己的层
 
-
+```
+下周计划：
+* 尝试找下一篇论文的代码，并调通
+* 在mnist、和人脸数据集上分别测试kernel张量化方法，给出时间空间优化程度以及准确率drop
+```
 
 
 
