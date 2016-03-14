@@ -23,7 +23,7 @@
 
 ## 2016/3/9
 * 在实验室服务器上调通了code
-* 粗略测量了一下mnist上加速后与加速前的数据，结果存放在 tensorizing_kernel/cp-decomosition_results_on_CPU.txt
+* 粗略测量了一下mnist上加速后与加速前的数据，结果存放在 tensorizing_kernel/result.txt
 * 学习了finetuning的例子http://caffe.berkeleyvision.org/gathered/examples/finetune_flickr_style.html
 
 ## 2016/3/10
@@ -37,7 +37,10 @@
 * 在mnist、和人脸数据集上分别测试kernel张量化方法，给出时间空间优化程度以及准确率drop
 ```
 ## 2016/3/14
-* 
+* 准备详细测试cp-decomposition方法在mnist数据集上的表现
+  1. 按照论文，要对加速后的model进行fine-tune （问题：调参方法未掌握，调后的网络误差更大）
+  2. 想观察加速前后的网络的空间占用，尚未找到合适方法
+  3. 已经测量R=4时加速后网络的error、accuracy、time，放在tensorizing_kernel/result.txt中（随实验继续更新）
 
 
 
