@@ -40,7 +40,7 @@
 * 准备详细测试cp-decomposition方法在mnist数据集上的表现
   1. 按照论文，要对加速后的model进行fine-tune （问题：调参方法未掌握，调后的网络误差更大）
   2. 想观察加速前后的网络的空间占用，尚未找到合适方法
-  3. 已经测量R=4时加速后网络的error、accuracy、time，放在tensorizing_kernel/result.txt中（随实验继续更新）
+  3. 已经测量R=4时CPU、GPU下分别加速网络的error、accuracy、time，放在tensorizing_kernel/result.txt中（随实验继续更新，为什么GPU下反而更慢？）
 
 
 
