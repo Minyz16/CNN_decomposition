@@ -42,6 +42,12 @@
   2. 想观察加速前后的网络的空间占用，尚未找到合适方法
   3. 已经测量R=4时CPU、GPU下分别加速网络的error、accuracy、time，放在tensorizing_kernel/result.txt中（随实验继续更新，为什么GPU下反而更慢？）
 
-
+## 2016/3/15
+* 为了修改代码，仔细读了一遍源代码,对应论文查看又发现了一些问题
+* Questions
+	ConvolutionParameter Pad,group？
+	每一层都需要激活函数?
+	bias？
+	matrix的2范数？
 
 
