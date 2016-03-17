@@ -45,9 +45,11 @@
 ## 2016/3/15
 * 为了修改代码，仔细读了一遍源代码,对应论文查看又发现了一些问题
 * Questions
-	ConvolutionParameter Pad,group？
-	每一层都需要激活函数?
-	bias？
+	ConvolutionParameter Pad,group？（pad是指对feature map进行padding；group还是不知道）
+	每一层都需要激活函数? （caffe的convolution layer默认没有激活函数）
+	bias？   （进行4层卷积之后再加上bias）
 	matrix的2范数？
 
+## 2016/3/17
+* 尝试跑一下人脸数据集
 
