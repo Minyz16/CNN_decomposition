@@ -1,0 +1,47 @@
+GPU model_B_iter_120000.caffemodel:
+before accelerated:
+accuracy = 0.744
+I0318 18:45:46.204107 29517 caffe.cpp:355] Average time per layer: 
+I0318 18:45:46.204130 29517 caffe.cpp:358]       data	forward: 0.2282 ms.
+I0318 18:45:46.204177 29517 caffe.cpp:358] label_data_1_split	forward: 0.00344 ms.
+I0318 18:45:46.204222 29517 caffe.cpp:358]      conv1	forward: 247.416 ms.
+I0318 18:45:46.204267 29517 caffe.cpp:358]     slice1	forward: 15.7526 ms.
+I0318 18:45:46.204311 29517 caffe.cpp:358]   etlwise1	forward: 28.2203 ms.
+I0318 18:45:46.204355 29517 caffe.cpp:358]      pool1	forward: 54.1948 ms.
+I0318 18:45:46.204406 29517 caffe.cpp:358]     conv2a	forward: 29.8887 ms.
+I0318 18:45:46.204450 29517 caffe.cpp:358]    slice2a	forward: 3.89332 ms.
+I0318 18:45:46.204495 29517 caffe.cpp:358]  etlwise2a	forward: 7.94746 ms.
+I0318 18:45:46.204545 29517 caffe.cpp:358]      conv2	forward: 463.136 ms.
+I0318 18:45:46.204591 29517 caffe.cpp:358]     slice2	forward: 8.11314 ms.
+I0318 18:45:46.204643 29517 caffe.cpp:358]   etlwise2	forward: 14.8423 ms.
+I0318 18:45:46.204689 29517 caffe.cpp:358]      pool2	forward: 28.8731 ms.
+I0318 18:45:46.204727 29517 caffe.cpp:358]     conv3a	forward: 25.7262 ms.
+I0318 18:45:46.204771 29517 caffe.cpp:358]    slice3a	forward: 1.739 ms.
+I0318 18:45:46.204814 29517 caffe.cpp:358]  etlwise3a	forward: 3.91954 ms.
+I0318 18:45:46.204864 29517 caffe.cpp:358]      conv3	forward: 431.773 ms.
+I0318 18:45:46.204908 29517 caffe.cpp:358]     slice3	forward: 4.08354 ms.
+I0318 18:45:46.204953 29517 caffe.cpp:358]   etlwise3	forward: 8.71052 ms.
+I0318 18:45:46.204995 29517 caffe.cpp:358]      pool3	forward: 15.2859 ms.
+I0318 18:45:46.205039 29517 caffe.cpp:358]     conv4a	forward: 23.1216 ms.
+I0318 18:45:46.205083 29517 caffe.cpp:358]    slice4a	forward: 0.80496 ms.
+I0318 18:45:46.205139 29517 caffe.cpp:358]  etlwise4a	forward: 2.018 ms.
+I0318 18:45:46.205189 29517 caffe.cpp:358]      conv4	forward: 152.415 ms.
+I0318 18:45:46.205235 29517 caffe.cpp:358]     slice4	forward: 0.56734 ms.
+I0318 18:45:46.205329 29517 caffe.cpp:358]   etlwise4	forward: 1.41064 ms.
+I0318 18:45:46.205373 29517 caffe.cpp:358]     conv5a	forward: 11.811 ms.
+I0318 18:45:46.205415 29517 caffe.cpp:358]    slice5a	forward: 0.55466 ms.
+I0318 18:45:46.205459 29517 caffe.cpp:358]  etlwise5a	forward: 1.40192 ms.
+I0318 18:45:46.205498 29517 caffe.cpp:358]      conv5	forward: 101.841 ms.
+I0318 18:45:46.205541 29517 caffe.cpp:358]     slice5	forward: 0.55892 ms.
+I0318 18:45:46.205582 29517 caffe.cpp:358]   etlwise5	forward: 1.42422 ms.
+I0318 18:45:46.205622 29517 caffe.cpp:358]      pool4	forward: 2.85268 ms.
+I0318 18:45:46.205667 29517 caffe.cpp:358]        fc1	forward: 15.5339 ms.
+I0318 18:45:46.205710 29517 caffe.cpp:358]   relu_fc1	forward: 0.01436 ms.
+I0318 18:45:46.205752 29517 caffe.cpp:358]      drop1	forward: 0.06394 ms.
+I0318 18:45:46.205795 29517 caffe.cpp:358]        fc2	forward: 14.7626 ms.
+I0318 18:45:46.205837 29517 caffe.cpp:358] fc2_fc2_0_split	forward: 0.0042 ms.
+I0318 18:45:46.205878 29517 caffe.cpp:358]       loss	forward: 5.68354 ms.
+I0318 18:45:46.205921 29517 caffe.cpp:358]   accuracy	forward: 1.293 ms.
+I0318 18:45:46.205976 29517 caffe.cpp:366] Average Forward pass: 1732.21 ms.
+
+after accelerated:
