@@ -1,8 +1,0 @@
-≤‚¡ø ±º‰£∫
-./build/tools/caffe time -model=##.prototxt -weights=##.caffemodel £®-gpu=0£©
-≤‚ ‘£∫
-./build/tools/caffe test -model=##.prototxt -weights=##.caffemodel £®-gpu=0£©
-—µ¡∑£∫
-./build/tools/caffe train -solver=##.prototxt £®-gpu=0£©
-fine-tuning£∫
-./build/tools/caffe train -solver=##.prototxt -weights=##.caffemodel£®-gpu=0£©
